@@ -1,0 +1,63 @@
+/* #element-for-transition{
+
+    height: 200px;
+    width: 300px;
+    background-color: purple;
+    color: white;
+}
+
+#element-for-transition:hover{
+
+    transition-property: background-color, font-size;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    background-color: yellowgreen;
+    transition-delay: 1s;
+    font-size: 30px;
+    transition: background-color 0.5s ease-in, font-size 1s 30px, height 0.3s 200px;
+
+
+} */
+
+html{
+    background-color: rgb(238, 167, 245);
+}
+
+a{
+    text-decoration: none;
+    padding: 15px 60px;
+    text-align: center;
+    background-color: rgb(73, 37, 87);
+    border: 1px solid rgb(204, 231, 53);
+    margin: 30px;
+    color:aquamarine;
+    font-size: x-large;
+    box-shadow: 10px 10px chartreuse;
+}
+.menu{
+    text-align: center;
+}
+.neparni:hover{
+  
+    transition: background-color, color, font-size, transform;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    background-color: salmon;
+    color:yellow;
+    text-decoration: underline;
+    transform: scale(1.3);
+
+}
+
+.parni:hover{
+
+    transition: letter-spacing, font-size;
+    transition-duration: 1s;
+    
+    transition-timing-function: linear;
+    font-size: 30px;
+    letter-spacing: 10px;
+    text-decoration: overline;
+    transform: rotate(24deg);
+
+}
