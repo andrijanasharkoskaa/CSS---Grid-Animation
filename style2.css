@@ -1,0 +1,98 @@
+html{
+    background-image: url(m1.jpg);   
+}
+nav a{
+    
+    display: inline;
+    padding: 15px 60px;
+    margin: 40px;
+    font-size: 20px;
+    color: rgb(220, 240, 44);
+    background-color: rgb(37, 15, 228);
+    text-align: center;
+    text-decoration: none;   
+}
+nav{
+    text-align: center;
+}
+
+#layout{
+    display: grid;
+    grid-template-rows: 150px 300px;
+    grid-template-columns: 400px 500px;
+    grid-column-gap: 30px; 
+    grid-row-gap: 30px;
+    margin-left: 350px;    
+}
+.cell1{
+    background-color: rgb(61, 48, 250);       
+}
+
+.title1{
+    font-size: 30px;
+    font-variant: small-caps;
+    color: goldenrod;
+    text-align: justify;
+}
+.cell2{
+background-image: url(banana.png);
+
+/* border: solid rgb(27, 26, 26); */
+
+
+}
+.cell3{
+
+    background-color: rgb(236, 205, 29);
+}
+.cell4{
+    background-color: rgb(58, 45, 243);
+}
+.doznaj:hover{
+    background-color: rgb(228, 231, 5);  
+}
+
+.doznaj{
+    margin-left: 180px;
+    font-size: 20px;
+    font-variant: small-caps;   
+}
+.text{
+
+    text-align: center;
+    font-variant: small-caps;
+    font-style: oblique;
+    color: mediumblue;
+}
+
+h1{
+    text-align: center;
+    color:rgb(61, 48, 250);
+
+}
+
+h2{
+    text-align: justify;
+    color: yellow;
+    
+}
+
+.text2{
+
+    text-align: justify;
+    font-variant: small-caps;
+    font-style: oblique;
+    color: goldenrod;
+}
+
+
+.kontakt{
+
+    position: relative;
+    top: -250px;
+    left: 200px ;
+    font-size: 30px;
+    background-color: rgb(238, 234, 17);
+    text-align: center;
+    font-variant: small-caps;
+}
